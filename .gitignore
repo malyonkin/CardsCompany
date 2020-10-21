@@ -1,6 +1,6 @@
-*.class
-target/
 *.iml
-.idea/
-out/
-build/
+*.ipr
+*.iws
+out
+build
+.allure

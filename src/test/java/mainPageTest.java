@@ -12,6 +12,13 @@ public class mainPageTest {
     //mvn allure:report - Report will be generated tо directory: target/site/allure-maven/index.html
     @Before
     public void setUp() {
+        //browser = app.getBrowserType();
+        //serverSite = app.getServerSite();
+        String webDriverVersion = System.getProperty("webdriver.driver");
+        //String saucelabsLogin = app.getSaucelabsLogin();
+        //app.getWebDriverHelper().deleteAllCookies();
+        //app.getWebDriverHelper().openUrl(serverSite);
+        //app.getWebDriverHelper().refresh();
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
     }
 

@@ -1,6 +1,9 @@
 *.iml
 *.ipr
 *.iws
+allure-results
 out
 build
+files
+target
 .allure

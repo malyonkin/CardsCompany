@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/CardsCompany</output-path>
     <root id="root">
       <element id="archive" name="CardsCompany.jar">
-        <element id="module-output" name="CardsCompany" />
+        <element id="module-output" name="CardsCompanyAllure" />
       </element>
     </root>
   </artifact>

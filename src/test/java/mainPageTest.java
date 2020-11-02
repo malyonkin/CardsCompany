@@ -3,8 +3,11 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.Before;
 import org.junit.Test;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class mainPageTest {
     //mvn clean test - запуск тестов
@@ -12,20 +15,16 @@ public class mainPageTest {
     //mvn allure:report - Report will be generated tо directory: target/site/allure-maven/index.html
     @Before
     public void setUp() {
-        //browser = app.getBrowserType();
-        //serverSite = app.getServerSite();
-        String webDriverVersion = System.getProperty("webdriver.driver");
-        //String saucelabsLogin = app.getSaucelabsLogin();
-        //app.getWebDriverHelper().deleteAllCookies();
-        //app.getWebDriverHelper().openUrl(serverSite);
-        //app.getWebDriverHelper().refresh();
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
     }
 
     @Test
-    public void SearchEmpty() {
+    public void SearchEmpty() throws InterruptedException {
+
         open("https://www.rbc.ru/companies/");
-        $(".home__search-form .search-form__btn").click();
+        $(".home__search-form .search-form__btn");
+        getWebDriver().findElement(By.cssSelector(".home__search-form .search-form__btn")).click(); //использование selenium в selenide
+        Thread.sleep(1000);
         $("h3").shouldHave(Condition.text("Все результаты")); //тест
-    }
+        }
 }

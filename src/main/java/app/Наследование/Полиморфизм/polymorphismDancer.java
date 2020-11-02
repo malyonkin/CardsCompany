@@ -24,6 +24,7 @@ public class polymorphismDancer {
             super(name, age);
         }
 
+
         // переопределение метода базового класса
         @Override //анотация для переопределения метода - нужно компелятору
         public void dance() {

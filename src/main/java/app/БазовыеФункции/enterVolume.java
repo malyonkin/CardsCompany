@@ -1,5 +1,7 @@
 package app.БазовыеФункции;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class enterVolume {
@@ -12,5 +14,10 @@ public class enterVolume {
         b = new Scanner(System.in).nextInt();
         c = a + b;
         System.out.println("Сумма ваших чисел равна " + c);
+
+        //Метод, которые чаще используется
+        /*BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String sAge = reader.readLine(); //Ввести с клавиатуры строку
+        int nAge = Integer.parseInt(sAge); //Ввести с клавиатуры число*/
     }
 }

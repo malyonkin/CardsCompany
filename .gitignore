@@ -1,12 +1,11 @@
 *.iml
 *.ipr
 *.iws
-allure-results
-out
-build
-files
-target
 .allure
+/allure-results/
+/out/
+/build/
+/target/
 !/target/site/*
 !/target/allure-results/*
 

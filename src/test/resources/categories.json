@@ -14,6 +14,11 @@
     "traceRegex": ".*FileNotFoundException.*"
   },
   {
+    "name": "Нет данных",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*NullPointerException.*"
+  },
+  {
     "name": "Product defects",
     "matchedStatuses": ["failed"]
   },

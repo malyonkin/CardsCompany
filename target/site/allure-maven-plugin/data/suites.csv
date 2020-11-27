@@ -1,4 +1,3 @@
 "Status","Name","Duration in ms","Description"
-"passed","mainPageTests.addLinkSber","2","ОПИСАНИЕ Алюр - описание в сьюте"
-"passed","mainPageTests.addLinkSber1","28",""
-"passed","mainPageTests.SearchEmpty","10223",""
+"passed","mainPageTests.SearchEmpty","8120",""
+"passed","mainPageTests.addLinkSber","27","ОПИСАНИЕ Алюр - описание в сьюте"

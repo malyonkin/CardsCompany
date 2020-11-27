@@ -4,4 +4,8 @@
 /allure-results/
 /out/
 /build/
+/target/
+!/target/allure-results/environment.properties
+!/target/allure-results/categories.json
+!/target/allure-results/allure.properties
 

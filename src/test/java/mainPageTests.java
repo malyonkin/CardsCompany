@@ -50,6 +50,13 @@ public class mainPageTests {
         Allure.addAttachment("Результат", "text/plain", link);
     }
 
+    @Test
+    @DisplayName("удалить")
+    public void test() {
+        String link = "https://www.rbc.ru/companies/";
+        Allure.addAttachment("Результат", "text/plain", link);
+    }
+
     //@Test
     @Owner(value = "Малёныч Сашкин")
     @Severity(value = SeverityLevel.BLOCKER) //SeverityLevel: BLOCKER, CRITICAL, NORMAL, MINOR или TRIVIAL

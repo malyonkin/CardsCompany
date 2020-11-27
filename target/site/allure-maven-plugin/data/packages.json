@@ -4,40 +4,28 @@
   "children" : [ {
     "name" : "mainPageTests",
     "children" : [ {
-      "name" : "addLinkSber1",
-      "uid" : "c3ac03f022d9579",
-      "parentUid" : "606a1e5cd4093147ce03c63bc57e8dbc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606490521504,
-        "stop" : 1606490521532,
-        "duration" : 28
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "addLinkSber",
-      "uid" : "c31a9afd189bf6",
+      "uid" : "a2a5a6fbf85a4c4f",
       "parentUid" : "606a1e5cd4093147ce03c63bc57e8dbc",
       "status" : "passed",
       "time" : {
-        "start" : 1606490521610,
-        "stop" : 1606490521612,
-        "duration" : 2
+        "start" : 1606493083237,
+        "stop" : 1606493083264,
+        "duration" : 27
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "SearchEmpty",
-      "uid" : "1eee8df53b469560",
+      "uid" : "891051d650f1659a",
       "parentUid" : "606a1e5cd4093147ce03c63bc57e8dbc",
       "status" : "passed",
       "time" : {
-        "start" : 1606490521618,
-        "stop" : 1606490531841,
-        "duration" : 10223
+        "start" : 1606493083341,
+        "stop" : 1606493091461,
+        "duration" : 8120
       },
-      "flaky" : true,
+      "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "606a1e5cd4093147ce03c63bc57e8dbc"

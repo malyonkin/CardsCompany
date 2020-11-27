@@ -1,0 +1,26 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "c116262b2f1ec02a25d75109702b5686",
+    "name" : "ЭПИК Алюр - Функционала Тест. Позволяет группировать тесты по эпикам",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c9524acdacceed50cbb3fd760960b38c",
+    "name" : "ЭПИК Алюр - Функционала поиска. Позволяет группировать тесты по эпикам",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

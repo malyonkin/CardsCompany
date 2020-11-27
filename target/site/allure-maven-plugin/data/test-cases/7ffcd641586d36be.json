@@ -1,0 +1,72 @@
+{
+  "uid" : "7ffcd641586d36be",
+  "name" : "addLinkSber()",
+  "fullName" : "mainPageTests.addLinkSber",
+  "historyId" : "c20c8acf19b18d3972a8464321876917",
+  "time" : {
+    "start" : 1606475442836,
+    "stop" : 1606475442863,
+    "duration" : 27
+  },
+  "description" : "ОПИСАНИЕ Алюр - тест просто отдаёт ссылку",
+  "descriptionHtml" : "<p>ОПИСАНИЕ Алюр - тест просто отдаёт ссылку</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "ОПИСАНИЕ Алюр - тест просто отдаёт ссылку",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da88aa561f81105e",
+      "name" : "Результат",
+      "source" : "da88aa561f81105e.txt",
+      "type" : "text/plain",
+      "size" : 29
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "malyonkin"
+  }, {
+    "name" : "thread",
+    "value" : "21540@malyonkin.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "addLinkSber"
+  }, {
+    "name" : "suite",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ffcd641586d36be.json",
+  "parameterValues" : [ ]
+}

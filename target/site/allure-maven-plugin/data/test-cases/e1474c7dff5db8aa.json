@@ -1,0 +1,93 @@
+{
+  "uid" : "e1474c7dff5db8aa",
+  "name" : "Для тестирования",
+  "fullName" : "mainPageTests.addLinkSber",
+  "historyId" : "c20c8acf19b18d3972a8464321876917",
+  "time" : {
+    "start" : 1606479081261,
+    "stop" : 1606479081288,
+    "duration" : 27
+  },
+  "description" : "ОПИСАНИЕ Алюр - описание в сьюте",
+  "descriptionHtml" : "<p>ОПИСАНИЕ Алюр - описание в сьюте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "ОПИСАНИЕ Алюр - описание в сьюте",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5aa4415a37879521",
+      "name" : "Результат",
+      "source" : "5aa4415a37879521.txt",
+      "type" : "text/plain",
+      "size" : 29
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ФИЧА Алюр - для тестирования структуры Тестовой модели"
+  }, {
+    "name" : "epic",
+    "value" : "ЭПИК Алюр - Функционала Тест. Позволяет группировать тесты по эпикам"
+  }, {
+    "name" : "host",
+    "value" : "malyonkin"
+  }, {
+    "name" : "thread",
+    "value" : "23046@malyonkin.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "addLinkSber"
+  }, {
+    "name" : "suite",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "RBCNEW-123",
+    "url" : "https://example.org/issue/RBCNEW-123",
+    "type" : "issue"
+  }, {
+    "name" : "X-ray-136",
+    "url" : "https://example.org/tms/X-ray-136",
+    "type" : "tms"
+  }, {
+    "name" : "X-ray-135",
+    "url" : "https://example.org/tms/X-ray-135",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1474c7dff5db8aa.json",
+  "parameterValues" : [ ]
+}

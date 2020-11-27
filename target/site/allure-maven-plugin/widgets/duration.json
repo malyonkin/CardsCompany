@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c31a9afd189bf6",
+  "name" : "Для тестирования",
+  "time" : {
+    "start" : 1606490521610,
+    "stop" : 1606490521612,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c3ac03f022d9579",
+  "name" : "addLinkSber1()",
+  "time" : {
+    "start" : 1606490521504,
+    "stop" : 1606490521532,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1eee8df53b469560",
+  "name" : "Проверка полного поиска - значение НУЛЕВОЕ/Не задано",
+  "time" : {
+    "start" : 1606490521618,
+    "stop" : 1606490531841,
+    "duration" : 10223
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

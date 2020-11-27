@@ -1,0 +1,74 @@
+{
+  "uid" : "dd614a124ae2826d",
+  "name" : "addLinkSber1()",
+  "fullName" : "mainPageTests.addLinkSber1",
+  "historyId" : "bd0b77bd179a47d172dd455f2928de3d",
+  "time" : {
+    "start" : 1606487645536,
+    "stop" : 1606487645561,
+    "duration" : 25
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "615aa2cccb5fe8c6",
+      "name" : "Результат",
+      "source" : "615aa2cccb5fe8c6.txt",
+      "type" : "text/plain",
+      "size" : 29
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "malyonkin"
+  }, {
+    "name" : "thread",
+    "value" : "25421@malyonkin.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "addLinkSber1"
+  }, {
+    "name" : "suite",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd614a124ae2826d.json",
+  "parameterValues" : [ ]
+}

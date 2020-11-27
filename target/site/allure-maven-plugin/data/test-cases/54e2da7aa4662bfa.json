@@ -1,0 +1,137 @@
+{
+  "uid" : "54e2da7aa4662bfa",
+  "name" : "Проверка полного поиска - значение НУЛЕВОЕ/Не задано",
+  "fullName" : "mainPageTests.SearchEmpty",
+  "historyId" : "6b664a228ec2e9149131e6def1ef1f8",
+  "time" : {
+    "start" : 1606482283038,
+    "stop" : 1606482292390,
+    "duration" : 9352
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://www.rbc.ru/companies/",
+      "time" : {
+        "start" : 1606482283058,
+        "stop" : 1606482289111,
+        "duration" : 6053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h3\") should have(text 'Все результаты')",
+      "time" : {
+        "start" : 1606482292262,
+        "stop" : 1606482292314,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h3\") should be(exist)",
+      "time" : {
+        "start" : 1606482292315,
+        "stop" : 1606482292359,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h3\") should be(visible)",
+      "time" : {
+        "start" : 1606482292359,
+        "stop" : 1606482292390,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Малёныч Сашкин"
+  }, {
+    "name" : "epic",
+    "value" : "ЭПИК Алюр - Функционала поиска. Позволяет группировать тесты по эпикам"
+  }, {
+    "name" : "feature",
+    "value" : "ФИЧА Алюр - пустой поиск. Часть функционала ПОИСКа"
+  }, {
+    "name" : "host",
+    "value" : "malyonkin"
+  }, {
+    "name" : "thread",
+    "value" : "23909@malyonkin.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchEmpty"
+  }, {
+    "name" : "suite",
+    "value" : "mainPageTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54e2da7aa4662bfa.json",
+  "parameterValues" : [ ]
+}

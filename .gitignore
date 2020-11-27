@@ -5,7 +5,4 @@
 /allure-results/
 /out/
 /build/
-/target/
-!/target/site/*
-!/target/allure-results/*
 
